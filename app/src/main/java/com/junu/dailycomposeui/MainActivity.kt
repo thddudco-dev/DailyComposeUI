@@ -10,6 +10,13 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.junu.dailycomposeui.animation.visibility.AnimatedVisibilityViewStep1
+import com.junu.dailycomposeui.animation.visibility.AnimatedVisibilityViewStep2
+import com.junu.dailycomposeui.animation.visibility.AnimatedVisibilityViewStep3
+import com.junu.dailycomposeui.animation.visibility.AnimatedVisibilityViewStep4
+import com.junu.dailycomposeui.animation.visibility.AnimatedVisibilityViewStep5
+import com.junu.dailycomposeui.animation.visibility.AnimatedVisibilityViewStep6
+import com.junu.dailycomposeui.animation.visibility.AnimatedVisibilityViewStep7
 import com.junu.dailycomposeui.ui.theme.DailyComposeUITheme
 
 class MainActivity : ComponentActivity() {
@@ -19,7 +26,7 @@ class MainActivity : ComponentActivity() {
             DailyComposeUITheme {
                 // A surface container using the 'background' color from the theme
                 Surface(modifier = Modifier.fillMaxSize(), color = MaterialTheme.colors.background) {
-                    Greeting("Android")
+                    AnimatedVisibilityViewStep7()
                 }
             }
         }
